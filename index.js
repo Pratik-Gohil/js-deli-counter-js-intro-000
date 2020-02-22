@@ -9,10 +9,11 @@ function nowServing(line) {
      return `Currently serving ${line.shift()}.`
   }
 }
-function currentLine(line) {
+function currentLine(line) {var array = []
   if (line.length == 0) {
     return "The line is currently empty."
   } else {
-    line.map((e,i) => e + i)
+    line.map((e,i) => array.push(`${i}. ${e}`))
+    return array.join()
   }
 }
