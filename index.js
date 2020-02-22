@@ -14,6 +14,7 @@ function currentLine(line) {
     return "The line is currently empty."
   } else {
     line.forEach((person, index) => {
+      var person = []
       person = `${index+1}. ${person}`
       console.log(person)
     })
