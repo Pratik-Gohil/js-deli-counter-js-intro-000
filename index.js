@@ -16,5 +16,6 @@ function currentLine(line) {
     line.forEach((person, index) => {
       person = `${index+1}. ${person}`
     })
+    return line
   }
 }
