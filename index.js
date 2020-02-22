@@ -10,14 +10,12 @@ function nowServing(line) {
   }
 }
 function currentLine(line) {
-  var person = []
-
   if (line.length == 0) {
     return "The line is currently empty."
   } else {
     line.forEach((person, index) => {
-      person.push(`${index+1}. ${person}`)
+      person = `${index+1}. ${person}`
+      console.log(person)
     })
-    console.log(person)
   }
 }
