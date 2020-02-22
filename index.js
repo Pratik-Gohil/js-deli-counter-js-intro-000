@@ -13,8 +13,6 @@ function currentLine(line) {
   if (line.length == 0) {
     return "The line is currently empty."
   } else {
-    line.forEach((person, index) => {
-      person = `${index+1}. ${person}`
-    })
+    line.map((e,i) => e + i)
   }
 }
