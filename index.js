@@ -15,7 +15,7 @@ function currentLine(line) {
   } else {
     line.forEach((person, index) => {
       var person = []
-      person = `${index+1}. ${person}`
+      person.push(`${index+1}. ${person}`)
       console.log(person)
     })
   }
