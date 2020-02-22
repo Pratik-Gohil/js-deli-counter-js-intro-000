@@ -13,7 +13,7 @@ function currentLine(line) {var array = []
   if (line.length == 0) {
     return "The line is currently empty."
   } else {
-    line.map((e,i) => array.push(`${i}. ${e}`))
+    line.map((e,i) => array.push(`${i+1}. ${e}`))
     return array.join()
   }
 }
