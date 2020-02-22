@@ -1,3 +1,3 @@
 function takeANumber(array, name) {
-  return `Welcome, ${nane}. You are number ${array.length} in line.`
+  return `Welcome, ${name}. You are number ${array.length} in line.`
 }
