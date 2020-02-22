@@ -15,7 +15,6 @@ function currentLine(line) {
   } else {
     line.forEach((person, index) => {
       person = `${index+1}. ${person}`
-      [...person]
     })
   }
 }
