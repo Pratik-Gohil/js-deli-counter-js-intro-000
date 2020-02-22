@@ -14,7 +14,7 @@ function currentLine(line) {
     return "The line is currently empty."
   } else {
     line.forEach((person, index) => {
-      return `The line is currently: ${index}. ${person}`
+      person = `1. ${person}`
     })
   }
 }
