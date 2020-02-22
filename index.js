@@ -17,6 +17,5 @@ function currentLine(line) {
       person = `${index+1}. ${person}`
       console.log(person)
     })
-    return line
   }
 }
