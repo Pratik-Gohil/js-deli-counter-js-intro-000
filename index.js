@@ -1,3 +1,4 @@
-function takeANumber(num) {
-
+function takeANumber(array, name) {
+  let array = []
+  return array
 }
