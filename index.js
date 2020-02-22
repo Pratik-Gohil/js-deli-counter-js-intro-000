@@ -14,6 +14,6 @@ function currentLine(line) {var array = []
     return "The line is currently empty."
   } else {
     line.map((e,i) => array.push(`${i+1}. ${e}`))
-    return array.join(', ')
+    return `+The line is currently: ${array.join(', ')}`
   }
 }
